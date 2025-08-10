@@ -1,26 +1,37 @@
 import json
 
-source_keymap = "qwertyuiopasdfghjkl;'zxcvbnm,./:\"<>?"
-dest_keymap = "vmlcpxfoujstrdy.naei;zkwgqbh'/,I:?\"<"
-
-source_keymap = source_keymap + source_keymap.upper()
-dest_keymap = dest_keymap + dest_keymap.upper()
+source_keymap = (
+    "qwertyuiop"
+    + "asdfghjkl;'"
+    + "zxcvbnm,./"
+    + "QWERTYUIOP"
+    + 'ASDFGHJKL:"'
+    + "ZXCVBNM<>?"
+)
+dest_keymap = (
+    "vmlcpxfouj"
+    + "strdy.naei;"
+    + "zkwgqbh'/,"
+    + "VMLCPXFOUJ"
+    + "STRDY>NAEI:"
+    + 'ZKWGQBH"?<'
+)
 
 
 with open("qwerty.json", "r") as f:
     before = json.load(f)
 
 
-for menu in before["dance.menus"].values():
+for menu in before.values():
     new_items = {}
     for k, v in menu["items"].items():
-        print(k)
         if k not in source_keymap:
             new_k = k
         elif "quotes" in v["text"]:
             new_k = k
         else:
             new_k = dest_keymap[source_keymap.index(k)]
+        print(k)
         print(new_k)
         print()
         new_items[new_k] = v

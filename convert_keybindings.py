@@ -1,10 +1,5 @@
 import json
-
-source_keymap = "qwertyuiopasdfghjkl;'zxcvbnm,./:\"<>?"
-dest_keymap = "vmlcpxfoujstrdy.naei;zkwgqbh'/,I:?\"<"
-
-source_keymap = source_keymap + source_keymap.upper()
-dest_keymap = dest_keymap + dest_keymap.upper()
+from convert_menus import source_keymap, dest_keymap
 
 
 with open("qwerty_kb.json", "r") as f:
