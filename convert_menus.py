@@ -11,10 +11,10 @@ source_keymap = (
 dest_keymap = (
     "bldwz'fouj"
     + "nrtsgyhaei/"
-    + "qxmcvpk.$,"
+    + "qxmc=pk.$,"
     + 'BLDWZ"FOUJ'
     + "NRTSGYHAEI?"
-    + 'QXMCVPK>|<'
+    + 'QXMC+PK>|<'
 )
 
 

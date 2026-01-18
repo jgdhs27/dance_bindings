@@ -86,17 +86,17 @@
     {
         "key": "y",
         "command": "dance.select.left.jump",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "h",
         "command": "dance.select.down.jump",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "a",
         "command": "dance.select.up.jump",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "e",
@@ -107,32 +107,32 @@
                 ".select.right.jump"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "z",
         "command": "dance.seek",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "s",
         "command": "dance.seek.included",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+z",
         "command": "dance.seek.backward",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+s",
         "command": "dance.seek.included.backward",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+w",
         "command": "dance.edit.replaceCharacters",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "w",
@@ -159,27 +159,27 @@
                 ]
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+$",
         "command": "dance.history.repeat.seek",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+`",
         "command": "dance.edit.case.swap",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "`",
         "command": "dance.edit.case.toLower",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+`",
         "command": "dance.edit.case.toUpper",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "home",
@@ -187,7 +187,7 @@
         "args": {
             "shift": "jump"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "end",
@@ -195,37 +195,37 @@
         "args": {
             "shift": "jump"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "l",
         "command": "dance.seek.word",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
-        "key": "v",
+        "key": "=",
         "command": "dance.seek.word.backward",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "d",
         "command": "dance.seek.wordEnd",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+l",
         "command": "dance.seek.word",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
-        "key": "shift+v",
+        "key": "shift+=",
         "command": "dance.seek.word.backward",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+d",
         "command": "dance.seek.wordEnd",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "c",
@@ -233,7 +233,7 @@
         "args": {
             "mode": "select"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+g",
@@ -241,7 +241,7 @@
         "args": {
             "shift": "jump"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "g",
@@ -254,17 +254,17 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+i",
         "command": "workbench.action.showCommands",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "o",
         "command": "dance.modes.insert.before",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "n",
@@ -275,7 +275,7 @@
                 ".select.right.jump"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "u",
@@ -286,12 +286,12 @@
                 ".edit.newLine.below.insert"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+o",
         "command": "dance.modes.insert.lineStart",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+n",
@@ -308,12 +308,12 @@
                 ".modes.insert.before"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+u",
         "command": "dance.edit.newLine.above.insert",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "t",
@@ -321,7 +321,7 @@
         "args": {
             "register": "dquote"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+t",
@@ -329,7 +329,7 @@
         "args": {
             "register": "dquote"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "m",
@@ -337,7 +337,7 @@
         "args": {
             "register": "dquote"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+m",
@@ -345,7 +345,7 @@
         "args": {
             "register": "dquote"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+m",
@@ -353,7 +353,7 @@
         "args": {
             "direction": 1
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+m",
@@ -361,77 +361,77 @@
         "args": {
             "direction": -1
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "r",
         "command": "dance.selections.select",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+r",
         "command": "dance.selections.splitLines",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+-",
         "command": "dance.selections.merge",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+r",
         "command": "dance.selections.split",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "i",
         "command": "dance.selections.reduce",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+i",
         "command": "dance.selections.changeDirection",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+u",
         "command": "editor.action.smartSelect.expand",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+o",
         "command": "editor.action.smartSelect.shrink",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+j",
         "command": "???",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+p",
         "command": "???",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+5",
         "command": "dance.select.buffer",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "x",
         "command": "dance.select.line.below.extend",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+x",
         "command": "dance.selections.expandToLines",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+x",
         "command": "dance.selections.trimLines",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "k",
@@ -445,7 +445,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "[",
@@ -458,7 +458,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+[",
@@ -472,7 +472,7 @@
                 "Selections.updateWithFallbackByIndex((i, sel, document) => new vscode.Selection(sel.anchor, pos[i], undefined, document));"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+]",
@@ -486,7 +486,7 @@
                 "Selections.updateWithFallbackByIndex((i, sel, document) => new vscode.Selection(sel.anchor, pos[i], undefined, document));"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "]",
@@ -499,57 +499,57 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": ",",
         "command": "dance.search",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+,",
         "command": "dance.search.backward",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "p",
         "command": "dance.search.next",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+p",
         "command": "dance.search.previous",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+8",
         "command": "dance.search.selection.smart",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+8",
         "command": "dance.search.selection",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "f",
         "command": "dance.history.undo",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+f",
         "command": "dance.history.redo",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+f",
         "command": "dance.history.undo.selections",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+f",
         "command": "dance.history.redo.selections",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "'",
@@ -557,7 +557,7 @@
         "args": {
             "register": "dquote"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "j",
@@ -565,7 +565,7 @@
         "args": {
             "register": "dquote"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+j",
@@ -573,107 +573,107 @@
         "args": {
             "register": "dquote"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "b",
         "command": "dance.history.recording.play",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+b",
         "command": "dance.history.recording.start",
-        "when": "editorTextFocus && dance.mode == 'normal' && !dance.isRecording || editorTextFocus && dance.mode == 'select' && !dance.isRecording"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' && !dance.isRecording || editorTextFocus && dance.mode == 'helix/select' && !dance.isRecording"
     },
     {
         "key": "shift+b",
         "command": "dance.history.recording.stop",
-        "when": "editorTextFocus && dance.mode == 'normal' &&  dance.isRecording || editorTextFocus && dance.mode == 'select' &&  dance.isRecording"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' &&  dance.isRecording || editorTextFocus && dance.mode == 'helix/select' &&  dance.isRecording"
     },
     {
         "key": "shift+.",
         "command": "dance.edit.deindent.withIncomplete",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+$",
         "command": "dance.edit.indent",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "=",
         "command": "editor.action.formatSelection",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+h",
         "command": "dance.edit.join",
-        "when": "editorTextFocus && dance.mode == 'normal'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal'"
     },
     {
         "key": "shift+h",
         "command": "dance.select.line.below.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+h",
         "command": "dance.edit.join.select",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+a",
         "command": "dance.selections.filter.regexp.inverse",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": ".",
         "command": "dance.selections.clear.secondary",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+.",
         "command": "dance.selections.clear.main",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+7",
         "command": "dance.edit.align",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+-",
         "command": "dance.selections.trimWhitespace",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+9",
         "command": "dance.selections.rotate.selections",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+0",
         "command": "dance.selections.rotate.selections.reverse",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+9",
         "command": "dance.selections.rotate.both",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+0",
         "command": "dance.selections.rotate.both.reverse",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+i",
         "command": "dance.selections.faceForward",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "$",
         "command": "dance.history.repeat.edit",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "escape",
@@ -688,7 +688,7 @@
             "by": "halfPage",
             "shift": "jump"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "pagedown",
@@ -698,12 +698,12 @@
             "by": "halfPage",
             "shift": "jump"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "tab",
         "command": "workbench.action.navigateForward",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "space",
@@ -716,7 +716,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "q",
@@ -729,7 +729,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+q",
@@ -743,27 +743,27 @@
             ],
             "locked": true
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+/",
         "command": "dance.selectRegister",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+1",
         "command": "dance.selections.pipe.prepend",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "alt+shift+1",
         "command": "dance.selections.pipe.append",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+4",
         "command": "dance.selections.filter",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+\\",
@@ -774,67 +774,67 @@
                 "await vscode.commands.executeCommand('dance.selections.pipe.replace', { expression: '#' + cmd});"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "=",
         "command": "editor.emmet.action.incrementNumberByOne",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "-",
         "command": "editor.emmet.action.decrementNumberByOne",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "\\",
         "command": "dance.ignore",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "/",
         "command": "editor.action.formatDocument",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+'",
         "command": "dance.ignore",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+t",
         "command": "dance.ignore",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+c",
         "command": "dance.ignore",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+k",
         "command": "dance.ignore",
-        "when": "editorTextFocus && dance.mode == 'normal' || editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "y",
         "command": "dance.select.left.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "h",
         "command": "dance.select.down.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "a",
         "command": "dance.select.up.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "e",
         "command": "dance.select.right.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "l",
@@ -846,10 +846,10 @@
                 "Selections.updateWithFallbackByIndex((i, sel) => sel.isReversed && oldAnchor[i].character >= sel.anchor.character ? new vscode.Selection(Positions.at(sel.anchor.line, sel.anchor.character+1), sel.active) : sel);"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
-        "key": "v",
+        "key": "=",
         "command": "dance.run",
         "args": {
             "code": [
@@ -858,7 +858,7 @@
                 "Selections.updateWithFallbackByIndex((i, sel) => !sel.isReversed && oldAnchor[i].character < sel.anchor.character ? new vscode.Selection(Positions.at(sel.anchor.line, sel.anchor.character-1), sel.active) : sel);"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "d",
@@ -870,62 +870,62 @@
                 "Selections.updateWithFallbackByIndex((i, sel) => sel.isReversed && oldAnchor[i].character >= sel.anchor.character ? new vscode.Selection(Positions.at(sel.anchor.line, sel.anchor.character+1), sel.active) : sel);"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+l",
         "command": "dance.seek.word",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
-        "key": "shift+v",
+        "key": "shift+=",
         "command": "dance.seek.word.backward",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+d",
         "command": "dance.seek.wordEnd",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": ",",
         "command": "dance.search.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+,",
         "command": "dance.search.backward.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "p",
         "command": "dance.search.next.add",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+p",
         "command": "dance.search.previous.add",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "z",
         "command": "dance.seek.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "s",
         "command": "dance.seek.included.extend",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+z",
         "command": "dance.seek.backward",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+s",
         "command": "dance.seek.included.backward",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+y",
@@ -935,7 +935,7 @@
                 "shift": "extend"
             }
         ],
-        "when": "editorTextFocus && (dance.mode == 'select' || dance.mode == 'normal')"
+        "when": "editorTextFocus && (dance.mode == 'helix/select' || dance.mode == 'helix/normal')"
     },
     {
         "key": "shift+e",
@@ -945,7 +945,7 @@
                 "shift": "extend"
             }
         ],
-        "when": "editorTextFocus && (dance.mode == 'select' || dance.mode == 'normal')"
+        "when": "editorTextFocus && (dance.mode == 'helix/select' || dance.mode == 'helix/normal')"
     },
     {
         "key": "pageup",
@@ -955,7 +955,7 @@
             "direction": -1,
             "by": "halfPage"
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "pagedown",
@@ -965,12 +965,12 @@
             "direction": 1,
             "by": "halfPage"
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "c",
         "command": "dance.modes.set.normal",
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "g",
@@ -983,7 +983,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "k",
@@ -991,7 +991,7 @@
         "args": {
             "menu": "match-hx"
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "q",
@@ -1004,7 +1004,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+q",
@@ -1018,7 +1018,7 @@
             ],
             "locked": true
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "ctrl+w",
@@ -1031,7 +1031,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "backspace",
@@ -1039,7 +1039,7 @@
         "args": {
             "menu": "ui-hx"
         },
-        "when": "editorTextFocus && dance.mode == 'normal' || dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal' || dance.mode == 'helix/select'"
     },
     {
         "key": "[",
@@ -1052,7 +1052,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "]",
@@ -1065,7 +1065,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "space",
@@ -1078,7 +1078,7 @@
                 }
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "w",
@@ -1089,7 +1089,7 @@
                 ".modes.set.normal"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "shift+w",
@@ -1117,7 +1117,7 @@
                 ".modes.set.normal"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "'",
@@ -1133,7 +1133,7 @@
                 ".modes.set.normal"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "t",
@@ -1149,7 +1149,7 @@
                 ".modes.set.normal"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "x",
@@ -1166,7 +1166,7 @@
                 ".selections.expandToLines"
             ]
         },
-        "when": "editorTextFocus && dance.mode == 'select'"
+        "when": "editorTextFocus && dance.mode == 'helix/select'"
     },
     {
         "key": "tab",
@@ -1191,42 +1191,42 @@
     {
         "key": "ctrl+r",
         "command": "dance.edit.selectRegister-insert",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+w",
         "command": "deleteWordLeft",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "alt+t",
         "command": "deleteWordRight",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+u",
         "command": "deleteAllLeft",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+k",
         "command": "deleteAllRight",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+h",
         "command": "deleteLeft",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+d",
         "command": "deleteRight",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+j",
         "command": "dance.edit.newLine.below.insert",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "browserback",
@@ -1271,32 +1271,32 @@
     {
         "key": "ctrl+b",
         "command": "-dance.select.vertically",
-        "when": "editorTextFocus && dance.mode == 'normal'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal'"
     },
     {
         "key": "ctrl+b",
         "command": "-dance.select.vertically",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+v",
         "command": "-dance.modes.set.temporarily.insert",
-        "when": "editorTextFocus && dance.mode == 'normal'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal'"
     },
     {
         "key": "ctrl+v",
         "command": "-dance.modes.set.temporarily.normal",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "ctrl+d",
         "command": "-dance.select.vertically",
-        "when": "editorTextFocus && dance.mode == 'normal'"
+        "when": "editorTextFocus && dance.mode == 'helix/normal'"
     },
     {
         "key": "ctrl+d",
         "command": "-dance.select.vertically",
-        "when": "editorTextFocus && dance.mode == 'insert'"
+        "when": "editorTextFocus && dance.mode == 'helix/insert'"
     },
     {
         "key": "shift+alt+s",
