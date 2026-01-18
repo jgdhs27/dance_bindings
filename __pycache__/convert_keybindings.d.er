@@ -1,0 +1,39 @@
+##[pylyzer] failed /home/markus/dance_bindings/convert_keybindings.py 1768746801 662
+.json: Never
+
+.___v_desugar_1 = pyimport "convert_menus"
+.convert_menus = pyimport "convert_menus"
+.source_keymap: Str
+.dest_keymap: Str
+
+.before: Never
+
+
+
+.k: Str
+
+.parts: global::List!(Str, _: Nat)
+
+
+
+
+.new_parts: global::List!(Str, 0)
+
+
+
+
+.new_part: Str
+
+
+
+
+
+.new_k: Str
+
+
+
+
+
+
+
+

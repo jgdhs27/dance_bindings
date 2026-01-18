@@ -9,12 +9,12 @@ source_keymap = (
     + "ZXCVBNM<>?"
 )
 dest_keymap = (
-    "vmlcpxfouj"
-    + "strdy.naei;"
-    + "zkwgqbh'/,"
-    + "VMLCPXFOUJ"
-    + "STRDY>NAEI:"
-    + 'ZKWGQBH"?<'
+    "bldwz'fouj"
+    + "nrtsgyhaei/"
+    + "qxmcvpk.$,"
+    + 'BLDWZ"FOUJ'
+    + "NRTSGYHAEI?"
+    + 'QXMCVPK>|<'
 )
 
 
@@ -38,5 +38,5 @@ for menu in before.values():
     menu["items"] = new_items
 
 
-with open("sturdy.json", "w") as f:
+with open("graphite.json", "w") as f:
     json.dump(before, f, indent=4)

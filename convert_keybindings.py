@@ -24,5 +24,5 @@ for item in before:
     item["key"] = new_k
 
 
-with open("sturdy_kb.json", "w") as f:
+with open("graphite_kb.json", "w") as f:
     json.dump(before, f, indent=4)

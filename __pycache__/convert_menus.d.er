@@ -1,0 +1,38 @@
+##[pylyzer] failed /home/markus/dance_bindings/convert_menus.py 1768746797 847
+.json: Never
+
+.source_keymap: Str
+.dest_keymap: Str
+
+.before: Never
+
+
+
+.new_items: global::Dict!({Obj: Never})
+
+.k: Obj
+.v: Never
+
+.new_k: Obj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
